@@ -1,4 +1,4 @@
-let s = "abxdddd";
+let str = "abxdddd";
 
 function removeConsecutive(s) {
   let cnt = 1;
@@ -20,8 +20,8 @@ function removeConsecutive(s) {
   }
   return ans;
 }
-console.log(removeConsecutive(s));
-s = "aaabbbccc";
-console.log(removeConsecutive(s));
-s = "aabbc";
-console.log(removeConsecutive(s));
+console.log(removeConsecutive(str));
+str = "aaabbbccc";
+console.log(removeConsecutive(str));
+str = "aabbc";
+console.log(removeConsecutive(str));
